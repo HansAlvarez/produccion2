@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E6F2FF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Gestión"
+        android:textSize="24sp"
+        android:textColor="#0066CC"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Área de Materiales"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4D94FF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnProduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Área de Producción"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4D94FF"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"/>
+
+
+
+</LinearLayout>

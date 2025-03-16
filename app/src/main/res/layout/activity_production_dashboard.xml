@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E6F2FF"
+    tools:context=".ProductionDashboardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel de Producción"
+        android:textSize="24sp"
+        android:textColor="#0066CC"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Componente"
+        android:textSize="18sp"
+        android:textColor="#0066CC"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etComponentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Componente"
+        android:inputType="text"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSendRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Solicitud"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4D94FF"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificación"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#4D94FF"
+        android:padding="16dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
