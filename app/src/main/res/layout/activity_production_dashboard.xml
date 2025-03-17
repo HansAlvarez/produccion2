@@ -4,57 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6F2FF"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#E6F2FF"
     tools:context=".ProductionDashboardActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="377dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="Panel de Producción"
-        android:textSize="24sp"
+        android:textAlignment="center"
         android:textColor="#0066CC"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Solicitar Componente"
-        android:textSize="18sp"
+        android:textAlignment="center"
         android:textColor="#0066CC"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/etComponentNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Número de Componente"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Material"
         android:inputType="text"
-        android:padding="16dp"
-        android:background="@drawable/edit_text_background"
-        android:layout_marginBottom="16dp"/>
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/etComponentNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Medidas"
+        android:inputType="text"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/etComponentNumber3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Color"
+        android:inputType="text"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/etComponentNumber4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hint="Area"
+        android:inputType="text"
+        android:padding="16dp" />
 
     <Button
         android:id="@+id/btnSendRequest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enviar Solicitud"
-        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"
         android:backgroundTint="#4D94FF"
         android:padding="16dp"
-        android:layout_marginBottom="32dp"/>
+        android:text="Enviar Solicitud"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvNotifications"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Notificación"
-        android:textSize="16sp"
-        android:textColor="#FFFFFF"
         android:background="#4D94FF"
         android:padding="16dp"
-        android:visibility="gone"/>
+        android:text="Notificación"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="gone" />
 
 </LinearLayout>
